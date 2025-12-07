@@ -1,7 +1,9 @@
 term=1
 suite=[]
 
-for_inrange(12):
-    suite.appened(term)
-    term*= 3
- print(suite)
+for i in range(12):
+	suite.append(term)
+	term *= 3
+
+if __name__ == "__main__":
+	print(suite)
