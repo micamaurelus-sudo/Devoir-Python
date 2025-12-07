@@ -1,0 +1,1 @@
+print(len(range(2,10001,2)))
